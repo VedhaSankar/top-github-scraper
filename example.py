@@ -4,6 +4,6 @@ if __name__=='__main__':
     keyword = "machine learning"
     stop_page = 2
  
-    get_top_contributors(keyword, stop_page=stop_page)
+    get_top_contributors(keyword, stop_page=stop_page, max_n_top_contributors = 200)
 
-    get_top_users(keyword, stop_page=stop_page)
+    # get_top_users(keyword, stop_page=stop_page)
